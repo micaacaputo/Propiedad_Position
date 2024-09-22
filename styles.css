@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #B695C0;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /*El z-index se aplica para asegurarnos que el menú quede por encima del contenido */
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    font-size: 18px;
+}
+
+li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.section-custom{
+    margin-top: 60px;
+}
